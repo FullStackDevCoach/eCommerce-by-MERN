@@ -1,0 +1,21 @@
+.newsletter-form {
+  p {
+    margin: 0;
+  }
+}
+
+.subscribe {
+  .inline-btn-box {
+    .input-text-block {
+      @include media-breakpoint-between(md, lg) {
+        flex-direction: column;
+
+        .custom-btn {
+          margin-top: 10px;
+          border-left: $border-default;
+          border-radius: $border-radius-default;
+        }
+      }
+    }
+  }
+}

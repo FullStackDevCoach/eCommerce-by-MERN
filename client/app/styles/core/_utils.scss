@@ -1,0 +1,34 @@
+// utils styles
+
+/* start not found styles */
+.not-found {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: $font-weight-bold-two;
+  color: $font-custom-color;
+}
+/* end not found styles */
+
+.message-box {
+  p {
+    margin: 0;
+    text-transform: capitalize;
+  }
+}
+
+// set bootstrap column's padding to 0
+.col-no-padding {
+  padding: 0;
+}
+
+.desktop-hidden {
+  display: none;
+
+  @include media-breakpoint-down(sm) {
+    display: block;
+  }
+}
+
+.fa {
+  font-size: $font-size-small !important;
+}
